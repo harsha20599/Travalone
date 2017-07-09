@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    tools:context="com.adityawebapps.travalone.SelectActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/bio"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textColor="#fff"/>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="0dp">
+        <Button
+            android:id="@+id/loginbtnxml"
+            android:onClick="openlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="#ae2c70b9"
+            android:text="LOGIN"
+            android:textColor="#fff"
+            android:alpha="0.9"
+
+            android:textSize="20sp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="#07a8c0"
+            android:text="SIGNUP"
+            android:textColor="#fff"
+            android:alpha="0.9"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
