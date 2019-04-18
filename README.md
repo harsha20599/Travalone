@@ -1,5 +1,5 @@
 # Travalone
-A application to meet and travel with known strangers
+A application to meet, share vehicle and travel with strangers
 
 ```
 - Depricated
